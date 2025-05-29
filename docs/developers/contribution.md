@@ -50,7 +50,7 @@ If you have suggestions on how this process could be improved, please submit a p
 ## Writing Documentation
 
 There are two documentation repositories:
-[documentation-en](https://github.com/alexozerov/documentation-en) is the English version.
+[documentation-en](https://github.com/alexozerov/documentation-en/blob) is the English version.
 [documentation-zh](https://github.com/alexozerov/documentation-zh) is the Chinese version.
 
 We use MkDocs to build documentation project. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
