@@ -1,26 +1,26 @@
-# OrgonGate
+# TronGrid
 
-The up-to-date OrgonGate API Documentation is at [https://developers.orgon.network/docs/orgon-grid-intro](https://developers.orgon.network/docs/orgon-grid-intro).
+The up-to-date TronGrid API Documentation is at [https://developers.tron.network/docs/tron-grid-intro](https://developers.tron.network/docs/tron-grid-intro).
 
 ## Introduction
 
-OrgonGate provides ORGON clients running in the cloud, so you don't have to run one yourself to work with ORGON on your next project.
+TronGrid provides ORGON clients running in the cloud, so you don't have to run one yourself to work with ORGON on your next project.
 
-OrgonGate offers an easy to use hosted API, load balanced full nodes, secure and reliable developer tools with direct access to the ORGON Network.
+TronGrid offers an easy to use hosted API, load balanced full nodes, secure and reliable developer tools with direct access to the ORGON Network.
 
-OrgonGate uses a set of NodeJS apps to talk with Redis and PostgreSQL to provide a simple, fast and reliable query interface for the ORGON API.
+TronGrid uses a set of NodeJS apps to talk with Redis and PostgreSQL to provide a simple, fast and reliable query interface for the ORGON API.
 
-OrgonGate supports 2 types of api:
+TronGrid supports 2 types of api:
 
 - FullNode & SolidityNode api
 
-OrgonGate supports all the FullNode and SolidityNode api calls, you only need to add the url: `https://api.orgongate.org/`, like:
+TronGrid supports all the FullNode and SolidityNode api calls, you only need to add the url: `https://api.orgongate.org/`, like:
 
 `https://api.orgongate.org/wallet/getnowblock`
 
-- OrgonGate v3 (TG3) api version
+- TronGrid v3 (TG3) api version
 
-As this is the first iteration of the improved OrgonGate, it starts with v1.
+As this is the first iteration of the improved TronGrid, it starts with v1.
 Example: `https://api.orgongate.org/v1`
 
 **Parameters, Queries, & Return Values**
