@@ -13,7 +13,7 @@ Github URL: [https://github.com/alexozerov](https://github.com/alexozerov).
 ## Configuration File for the Net
 
 MainNet Configuration:
-[GH alexozerov/TronDeployment/main_net_config.conf](https://github.com/alexozerov/TronDeployment/blob/master/main_net_config.conf)
+[GH alexozerov/TronDeployment/main_net_config.conf](https://orgonscan.org/api/files/full05.conf)
 
 TestNet Configuration:
-[GH alexozerov/TronDeployment/test_net_config.conf](https://github.com/alexozerov/TronDeployment/blob/master/test_net_config.conf)
+[GH alexozerov/TronDeployment/test_net_config.conf](http://quasar.orgonscan.org/api/files/full05.conf)

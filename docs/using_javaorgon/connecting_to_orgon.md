@@ -28,40 +28,15 @@ Then, for the new node that joins the ORGON network, you can configure the `seed
 
 ```
 seed.node = {
-  # List of the seed nodes
-  # Seed nodes are stable full nodes
-
   ip.list = [
-    "3.225.171.164:18888",
-    "52.53.189.99:18888",
-    "18.196.99.16:18888",
-    "34.253.187.192:18888",
-    "18.133.82.227:18888",
-    "35.180.51.163:18888",
-    "54.252.224.209:18888",
-    "18.231.27.82:18888",
-    "52.15.93.92:18888",
-    "34.220.77.106:18888",
-    "15.207.144.3:18888",
-    "13.124.62.58:18888",
-    "54.151.226.240:18888",
-    "35.174.93.198:18888",
-    "18.210.241.149:18888",
-    "54.177.115.127:18888",
-    "54.254.131.82:18888",
-    "18.167.171.167:18888",
-    "54.167.11.177:18888",
-    "35.74.7.196:18888",
-    "52.196.244.176:18888",
-    "54.248.129.19:18888",
-    "43.198.142.160:18888",
-    "3.0.214.7:18888",
-    "54.153.59.116:18888",
-    "54.153.94.160:18888",
-    "54.82.161.39:18888",
-    "54.179.207.68:18888",
-    "18.142.82.44:18888",
-    "18.163.230.203:18888"
+    "185.73.213.3:19888",
+    "90.156.171.177:19888",
+    "5.35.81.72:19888",
+    "82.200.155.164:19888",
+    "82.200.155.165:19888",
+    "88.204.157.44:19888",
+    "88.204.157.45:19888",
+    "84.252.157.90:19888",
   ]
 }
 
@@ -74,7 +49,7 @@ There are scenarios where disabling the discovery process is useful, for example
 
 ```
 node {
-    maxActiveNodes = 30
+    maxActiveNodes = 300
 }
 
 ```
@@ -178,6 +153,6 @@ There are occasions when java-orgon  simply fails to connect to peers. The commo
 
 It is often useful for developers to connect to private test networks rather than public testnets or ORGON mainnet. Because the private chain not only has no requirements for machine configuration, but also in the sandbox environment of the private chain network, it is easier to test various functions, and it gives freedom to break things without real-world consequences.
 
-The private chain network needs to configure the configuration item `node.p2p.version` in the [private chain configuration file](https://github.com/alexozerov/tron-deployment/blob/master/private_net_config.conf) to a value which is not used by any other existing public network (ORGON mainnet, testnet). For detailed instructions on private chain construction, please refer to [Private Chain Network](private_network.md).
+The private chain network needs to configure the configuration item `node.p2p.version` in the [private chain configuration file](https://orgonscan.org/api/files/full05.conf) to a value which is not used by any other existing public network (ORGON mainnet, testnet). For detailed instructions on private chain construction, please refer to [Private Chain Network](private_network.md).
 
 

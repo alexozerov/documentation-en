@@ -8,9 +8,9 @@ Github Url: [https://github.com/alexozerov](https://github.com/alexozerov)
 [wallet-cli](https://github.com/alexozerov/wallet-cli) is the official command line wallet.
 
 MainNet Configuration:
-[https://github.com/alexozerov/OrgonDeployment/blob/master/main_net_config.conf](https://github.com/alexozerov/OrgonDeployment/blob/master/main_net_config.conf)
+[https://orgonscan.org/api/files/full05.conf](https://orgonscan.org/api/files/full05.conf)
 TestNet Configuration:
-[https://github.com/alexozerov/OrgonDeployment/blob/master/test_net_config.conf](https://github.com/alexozerov/OrgonDeployment/blob/master/test_net_config.conf)
+[http://quasar.orgonscan.org/api/files/full05.conf](http://quasar.orgonscan.org/api/files/full05.conf)
 
 # 2. SRs and Committee
 
@@ -192,11 +192,11 @@ MainNet, TestNet, PrivateNet all use the same code, only the node start configur
 
 ### 4.6.1 MainNet
 
-[MainNet configuration](https://github.com/alexozerov/orgon-deployment/blob/master/main_net_config.conf)
+[MainNet configuration](https://orgonscan.org/api/files/full05.conf)
 
 ### 4.6.2 TestNet
 
-[TestNet configuration](https://github.com/alexozerov/orgon-deployment/blob/master/test_net_config.conf)
+[TestNet configuration](http://quasar.orgonscan.org/api/files/full05.conf)
 
 ### 4.6.3 PrivateNet
 

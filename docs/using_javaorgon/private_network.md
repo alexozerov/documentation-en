@@ -22,7 +22,7 @@ The process of building a node on private chain is the same as that on mainnet. 
      $ cp FullNode.jar ./FullNode
      ```
 
-3. Obtain the node's config file [private_net_config.conf](https://github.com/alexozerov/tron-deployment/blob/master/private_net_config.conf)
+3. Obtain the node's config file [private_net_config.conf](https://orgonscan.org/api/files/full05.conf)
 
     Obtain the node's config file private_net_config.conf, then put it into the SR and FullNode directories respectively, and modify the file names respectively to supernode.conf, fullnode.conf.
       ```
