@@ -51,13 +51,9 @@ For the ORGON mainnet and Quasar testnet, since the amount of data to be synchro
 The following table shows the download address of Fullnode data snapshots. Please select a suitable data snapshot according to the location and node database type, and whether you need to query historical internal transactions.
 
 
-| Fullnode Data Source | Download site | Description |
-| -------- | -------- | -------- |
-| Official data source (North America: Virginia)   | [http://34.86.86.229/](http://34.86.86.229/)     | LevelDB, exclude internal transactions     |
-| Official data source (Singapore)    | [http://34.143.247.77/](http://34.143.247.77/)    | 	LevelDB, exclude internal transactions     |
-| Official data source (North America: America)    | [http://35.197.17.205/](http://35.197.17.205/)   | RocksDB, exclude internal transactions     |
-| Official data source (Singapore)    | [http://35.247.128.170/](http://35.247.128.170/)   | LevelDB, include internal transactions    |
-| Official data source ((North America: Virginia))    | [http://34.48.6.163/](http://34.48.6.163/)   | LevelDB, exclude internal transactions, include account history ORGON balance     |
+| Fullnode Data Source | Download site                                                                                                      | Description |
+| -------- |--------------------------------------------------------------------------------------------------------------------| -------- |
+| Official data source    | [https://orgonscan.org/api/files/output-directory.tar.gz](https://orgonscan.org/api/files/output-directory.tar.gz) | LevelDB, exclude internal transactions     |
 
 
 **Note**：The data of LevelDB and RocksDB are not allowed to be mixed. The database can be specified in the config file of the full node, set db.engine to LEVELDB or ROCKSDB.
