@@ -67,8 +67,8 @@ The ORGON Public Chain has supported the type of the Lite FullNode since the ver
 
 
 | Lite Fullnode Data Source | Download site | Description |
-| -------- | -------- | -------- |
-| Official data source (Singapore)  | [http://34.143.247.77/](http://34.143.247.77/)     | LevelDB  |
+|---------------------------| -------- | -------- |
+| Official data source      | []()     | LevelDB  |
 
 
 **Tips**: You can split the data from the whole data with the help of the [Lite FullNode Data Pruning Tool](toolkit.md/#lite-fullnode-data-pruning).
