@@ -334,7 +334,7 @@ Returns the balance of the account of the given address.
 
 QUANTITY - integer of the current balance in sun.
 
-**Example**
+**Examplee**
 
 ```curl
 
