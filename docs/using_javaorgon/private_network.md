@@ -1,5 +1,5 @@
 # Private Network
-To build a private chain, it is necessary to deploy at least one fullnode running by SR to produces blocks, and any number of fullnodes to synchronize blocks and broadcast transactions. Only one SR node and one fullnode are set up in this example. Before the deployment, please install the `Oracle JDK 1.8` first, and then you need to prepare at least two ORGON network address and save the address and private key. You can use [wallet-cli](https://github.com/alexozerov/wallet-cli) or [Tronlink](https://www.tronlink.org/) to create address.
+To build a private chain, it is necessary to deploy at least one fullnode running by SR to produces blocks, and any number of fullnodes to synchronize blocks and broadcast transactions. Only one SR node and one fullnode are set up in this example. Before the deployment, please install the `Oracle JDK 1.8` first, and then you need to prepare at least two ORGON network address and save the address and private key. You can use [wallet-cli](https://github.com/alexozerov/wallet-cli) or [OrgonScan](https://orgonscan.org/) to create address.
 
 
 ## Deployment Guide
